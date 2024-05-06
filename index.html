@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <!--Unicons-->
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/unicons.css"/>
+    <!--Box icon-->
+    <link rel="stylesheet" href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Portfolio</title>
+</head>
+<body>
+    <header>
+        <div class="wrapper-logo">
+            <a href="#" class="logo"><h1>JSKS</h1></a>
+        </div>
+        <div class="nav-link-menu">
+            <ul class="nav-links">
+                <li><a href="#home" class="nav-link">Home</a></li>
+                <li><a href="#about" class="nav-link">About</a></li>
+                <li><a href="#skills" class="nav-link">Skills</a></li>
+                <li><a href="#projects" class="nav-link">Projects</a></li>
+                <li><a href="#contact" class="nav-link">Contact</a></li>
+            </ul>
+        </div>
+        <div class="nav-toggle" onclick="open_side_nav()">
+            <i class="fa fa-bars"></i>
+        </div>
+        <div class="btn">
+            <button class="download-cv"><i class="fa fa-file"></i> Resume</button>
+        </div>
+    </header>
+    <div class="side-nav">
+        <div class="side-nav-close" onclick="close_side_nav()">
+            <i class="fa fa-times"></i>
+        </div>
+        <ul class="nav-links">
+            <li><a onclick="close_side_nav()" href="#home" class="nav-link">Home</a></li>
+            <li><a onclick="close_side_nav()" href="#about" class="nav-link">About</a></li>
+            <li><a onclick="close_side_nav()" href="#skills" class="nav-link">Skills</a></li>
+            <li><a onclick="close_side_nav()" href="#projects" class="nav-link">Projects</a></li>
+            <li><a onclick="close_side_nav()" href="#contact" class="nav-link">Contact</a></li>
+        </ul>
+        <div class="side-nav-btn">
+            <button class="download-cv"><i class="fa fa-file"></i> Resume</button>
+        </div>
+    </div>
+
+    <main>
+        <section id="home">
+            <div class="home-wrapper">
+                <div class="about-me-wrapper">
+                    <div class="name-and-role-container">
+                        <h1 class="name">Keerthivasan S J</h1>
+                        <h4 class="my-role">Python Developer</h4>
+                    </div>
+                    <div class="highlights">
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi, fugit quis reiciendis nobis consequatur corrupti explicabo at voluptates impedit ullam.</p>
+                    </div>
+                    <div class="btn">
+                        <button class="download-resume"><i class="fa fa-file"></i> Resume</button>
+                        <button class="hire-me"><i class="fa fa-check" aria-hidden="true"></i> Hire Me</button>
+                    </div>
+                    <div class="home-social-links">
+                        <div class="social-link-circle">
+                            <a href=""><i class="fab fa-linkedin"></i></a>
+                        </div>
+                        <div class="social-link-circle">
+                            <a href=""><i class="fab fa-facebook-square"></i></a>
+                        </div>
+                        <div class="social-link-circle">
+                            <a href=""><i class="fab fa-instagram"></i></a>
+                        </div>
+                        <div class="social-link-circle">
+                            <a href=""><i class="fab fa-twitter"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="picture">
+                    <h1>Welcome!</h1>
+                </div>
+            </div>
+            <div class="scrole-down">
+                <a href="#about" class="scrole-down-btn">
+                    <p><i class='bx bx-mouse'></i> Scrole</p>
+                </a>
+            </div>
+        </section>
+
+        <section id="about">
+            <div class="title">
+                <h2>About Me</h2>
+                <span>A short introduction about me.</span>
+            </div>
+            <div class="about-wrapper">
+                <div class="intro-box">
+                    <h1>Introduction</h1>
+                    <p class="intro">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem iusto tenetur ullam corporis eius, commodi odit debitis beatae tempora perferendis numquam molestias maxime sit asperiores recusandae iste ea et deserunt!
+                    </p>
+                </div>
+                <div class="education-box">
+                    <h1>Education</h1>
+                    <div class="education-details">
+                        <div class="institute">
+                            <h1 class="institution-name">K Ramakrishnan College Of Technology</h1>
+                            <p>Computer Science and Engineering <span>2022-2026</span></p>
+                        </div>
+                        <div class="grades">
+                            <h1>8.60 <span>CGPA</span></h1>
+                        </div>
+                    </div>
+
+                    <div class="education-details">
+                        <div class="institute">
+                            <h1 class="institution-name">Malco Vidhyalaya Metric Hir sec School</h1>
+                            <p>12th Grade <span>2021-2022</span></p>
+                        </div>
+                        <div class="grades">
+                            <h1>85 <span>&percnt;</span></h1>
+                        </div>
+                    </div>
+
+                    <div class="education-details">
+                        <div class="institute">
+                            <h1 class="institution-name">Malco Vidhyalaya Metric Hir sec School</h1>
+                            <p>10th Grade <span>2019-2020</span></p>
+                        </div>
+                        <div class="grades">
+                            <h1>74 <span>&percnt;</span></h1>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+        <section id="skills">
+            <div class="title">
+                <h2>My Skills</h2>
+                <span>Areas of expertise include</span>
+            </div>
+            <div class="wrapper">
+                <div class="skill-box">
+                    <div class="skills-title">
+                        Technical Skills
+                    </div>
+                    <div class="skills">
+                        <span>Html</span>
+                        <span>CSS</span>
+                        <span>python</span>
+                        <span>java</span>
+                        <span>c</span>
+                        <span>cpp</span>
+                        <span>java script</span>
+                        <span>PHP</span>
+                        <span>MySql</span>
+                        <span>Django</span>
+                        <span>Tkinter</span>
+                        <span>GUI Development</span>
+                        <span>Web Development</span>
+                        <span>Software Development</span>
+                        <span>SQL</span>
+                    </div>
+                </div>
+                <div class="skill-box">
+                    <div class="skills-title">
+                        Non-Technical Skills
+                    </div>
+                    <div class="skills">
+                        <span>Problem Solving</span>
+                        <span>Problem Analysis</span>
+                        <span>Debugging</span>
+                        <span>Critical Thinking</span>
+                        <span>Decision Making</span>
+                    </div>
+                </div>
+                <div class="skill-box">
+                    <div class="skills-title">
+                        Languages Known
+                    </div>
+                    <div class="skills">
+                        <span>Tamil</span>
+                        <span>English</span>
+                    </div>
+                </div>
+            </div>
+            
+        </section>
+
+        <section id="projects">
+            <div class="title">
+                <h2>Projects</h2>
+                <span>Notable project highlights</span>
+            </div>
+            
+            <div class="project-list">
+                <div class="card">
+                    <h4>Flames Calculator</h4>
+                    <button class="view-btn">View <i class="fa fa-arrow-right"></i></button>
+                </div>
+                <div class="card">
+                    <h4>File Organiser</h4>
+                    <button class="view-btn">View <i class="fa fa-arrow-right"></i></button>
+                </div>
+                <div class="card">
+                    <h4>GPA calculator</h4>
+                    <button class="view-btn">View <i class="fa fa-arrow-right"></i></button>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact">
+            <div class="title">
+                <h2>Reach Out</h2>
+                <span>If you have any project ideas in your mind kindly reach out</span>
+            </div>
+            <div class="contact-form-container">
+
+                <div class="contact-details">
+                    <h2>Find Me <i class="fa fa-level-down"></i></h2>
+                    <div class="details">
+                        <p><i class="fa fa-envelope"></i> keerthivasan96@gmail.com</p>
+                        <p><i class="fa fa-phone"></i> +91 9566264721</p>
+                    </div>
+                </div>
+
+                <form action="" id="contact-form">
+                    <div class="name-field">
+                        <input type="text" placeholder="First Name" name="fname" id="fname">
+                        <input type="text" placeholder="Last Name" name="lname" id="lname">
+                    </div>
+                    <input type="email" placeholder="example@email.com" name="email" id="email">
+                    <textarea placeholder="Subject" name="subject" id="subject"></textarea>
+                    <div class="submit-btn">
+                        <button type="submit" id="submit">Send <i class="fa fa-paper-plane"></i></i></button>
+                    </div>
+                </form>
+            </div>
+        </section>
+
+    </main>
+
+    <footer>
+        <div class="social-links">
+            <i class="fab fa-linkedin"></i>
+            <i class="fab fa-facebook-square"></i>
+            <i class="fab fa-instagram"></i>
+            <i class="fab fa-twitter"></i>
+        </div>
+        <div class="copyrights">
+            <p><span>JSKS</span> &copy; 2024 All Rights reserved</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
