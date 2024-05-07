@@ -5,5 +5,5 @@ function open_side_nav(){
 }
 
 function close_side_nav(){
-    side_nav.style.top="-100%";
+    side_nav.style.top="-300%";
 }
